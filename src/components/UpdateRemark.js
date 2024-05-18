@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './UpdateRemark.css';
 
-// Update Remark 
-
 const UpdateRemark = () => {
   const [configId, setConfigId] = useState('');
   const [remark, setRemark] = useState('');
